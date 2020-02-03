@@ -1,4 +1,4 @@
-package com.marzgra;
+package com.marzgra.challenge4;
 
 import java.util.Arrays;
 

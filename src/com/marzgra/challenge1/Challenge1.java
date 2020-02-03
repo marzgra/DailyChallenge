@@ -1,4 +1,4 @@
-package com.marzgra;
+package com.marzgra.challenge1;
 
 public class Challenge1 {
     /*

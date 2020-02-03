@@ -1,4 +1,4 @@
-package com.marzgra;
+package com.marzgra.challenge5;
 
 public class Challenge5 {
     /*
@@ -20,27 +20,5 @@ public class Challenge5 {
         Pair<Integer, Integer> p1 = Pair.cons(1, 2);
         System.out.println(Pair.car(p1));
         System.out.println(Pair.cdr(p1));
-    }
-
-    public static class Pair<T, U> {
-        private T a;
-        private U b;
-
-        public Pair(T a, U b) {
-            this.a = a;
-            this.b = b;
-        }
-
-        private static <T, U> Pair<T,U> cons(T a, U b) {
-            return new Pair<>(a, b);
-        }
-
-        public static <T> T car(Pair<T, ?> p) {
-            return p.a;
-        }
-
-        public static <U> U cdr(Pair<?, U> p) {
-            return p.b;
-        }
     }
 }
